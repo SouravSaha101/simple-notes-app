@@ -8,7 +8,8 @@ function App() {
   return (
     <NoteProvider>
       <div className="App">
-        <h1>React Notes</h1>
+        <h1>Simple Notes App</h1>
+        <i className="fa fa-sticky-note"></i>
         <Form>
           <Button />
         </Form>
