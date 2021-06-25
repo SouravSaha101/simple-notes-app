@@ -1,5 +1,5 @@
 import React from "react";
-import "./Button.scss";
+import "./Buttton.css";
 
 export function Button() {
   return <input type="submit" value="new note" className="button" />;

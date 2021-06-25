@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import { NoteContext } from "../contexts/NoteContext";
+import { NoteContext } from "../../contextApi/notes";
 import { nanoid } from "nanoid";
 
-import "./Form.scss";
+import "./Form.css";
 
 export function Form(props) {
   const { addNote, inputNote, setInputNote } = useContext(NoteContext);
@@ -18,7 +18,7 @@ export function Form(props) {
   }
 
   return (
-    <form className={styles.inputContainer} onSubmit={handleSubmit}>
+    <form className="inputContainer" onSubmit={handleSubmit}>
       <input type="text" value={inputNote} onChange={handleChange} required />
       {props.children}
     </form>
