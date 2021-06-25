@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+.header {
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.logo {
+  color: #eb3349;
+  font-size: 34px !important;
+  margin-top: 27px;
+  margin-left: 19px;
+}

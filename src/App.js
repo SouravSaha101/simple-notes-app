@@ -8,8 +8,10 @@ function App() {
   return (
     <NoteProvider>
       <div className="App">
-        <h1>Simple Notes App</h1>
-        <i className="fa fa-sticky-note"></i>
+        <div className="header">
+          <h1>Simple Notes App</h1>
+          <i className="logo fa fa-sticky-note"></i>
+        </div>
         <Form>
           <Button />
         </Form>

@@ -18,9 +18,17 @@ export function Form(props) {
   }
 
   return (
-    <form className="inputContainer" onSubmit={handleSubmit}>
-      <input type="text" value={inputNote} onChange={handleChange} required />
-      {props.children}
-    </form>
+    <div className="box">
+      <form className="inputContainer" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={inputNote}
+          onChange={handleChange}
+          className="input-box"
+          required
+        />
+        {props.children}
+      </form>
+    </div>
   );
 }

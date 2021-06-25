@@ -1,7 +1,6 @@
 .noteContainer {
   border-radius: 5px;
-  box-shadow: 1px 1px 3px black;
-  background-color: #ffffff0b;
+  background-color: white;
 
   margin: 1rem 0;
   padding: 1rem;
@@ -10,6 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .noteContainer li {
@@ -30,20 +32,27 @@ button {
 }
 
 .noteContainer li input {
-  border-radius: 5px 0 0 5px;
-  color: #272727;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6 !important;
+  border-radius: 5px;
+  height: 44px;
+  width: 100%;
+  padding: 10px;
+  margin-right: 20px;
 }
 
 .noteContainer li button {
   cursor: pointer;
   transition: filter 1s ease;
+  margin-top: 10px;
+  font-size: 1.75rem;
 }
 
 .edit,
 .delete,
 .save {
-  width: 32px;
-  height: 32px;
+  width: 85px;
+  height: 50px;
 }
 
 .edit {
@@ -56,7 +65,7 @@ button {
 }
 
 .save {
-  background-color: #aaf255;
+  background-color: #61bd4f;
 }
 
 .noteContainer textarea {
@@ -66,6 +75,12 @@ button {
   border-radius: 5px 0 5px 5px;
   border: none;
   resize: none;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6 !important;
+  border-radius: 5px;
+  width: 100%;
+  margin-right: 20px;
+  padding: 10px;
 }
 
 @media (hover: hover) {
